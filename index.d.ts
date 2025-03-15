@@ -72,7 +72,7 @@ interface PathfinderReturn {
 
   interface CreepMemory {
     _travel?: never;
-    _trav: TravelData;
+    _trav?: TravelData;
   }
 
   interface RoomMemory {
